@@ -1,0 +1,6 @@
+Turtle.Speed = 10
+For count = 1 To 3
+  Turtle.Move(100)
+  Turtle.Turn(120)
+EndFor
+
