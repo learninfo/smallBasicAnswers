@@ -1,6 +1,0 @@
-Turtle.Speed = 10
-Turtle.move(100)
-Turtle.Turn(120)
-Turtle.move(100)
-Turtle.Turn(120)
-Turtle.move(100)
