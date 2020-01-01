@@ -1,9 +1,0 @@
-length = 100
-number_of_sides = 3
-angle = 360/number_of_sides
-Turtle.speed = 10
-Turtle.Move(length)
-Turtle.Turn(angle)
-Turtle.Move(length)
-Turtle.Turn(angle)
-Turtle.Move(length)
