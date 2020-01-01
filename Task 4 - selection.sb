@@ -1,0 +1,7 @@
+TextWindow.Write ("Input temperature")
+ temperature = TextWindow.Read()
+If temperature < 20 Then
+   TextWindow.Write ("You need to put a coat on")
+Else
+   TextWindow.Write ("No need for a coat today")
+EndIf
