@@ -1,0 +1,12 @@
+TextWindow.Write ("Enter a number between 3 and 8")
+number_of_sides = TextWindow.Read()
+While number_of_sides < 3 Or number_of_sides > 8 Or number_of_sides = 7
+  TextWindow.Write("Enter a number between 3 and 8")
+  number_of_sides = TextWindow.Read()
+endwhile
+length = 100
+angle = 360/number_of_sides
+For count = 1 To number_of_sides
+  Turtle.Move(length)
+  Turtle.Turn(angle)
+Endfor
