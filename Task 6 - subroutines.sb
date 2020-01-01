@@ -1,0 +1,19 @@
+Turtle.Speed = 10
+number_of_sides = 10
+
+flower()
+
+Sub flower
+  For i = 1 To 36
+    polygon()
+    Turtle.Turn(10)
+  EndFor
+EndSub
+
+Sub polygon
+  angle = 360/number_of_sides
+  For i = 1 To number_of_sides
+    Turtle.Move(50)
+    Turtle.Turn(angle)
+  endfor 
+EndSub
